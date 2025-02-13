@@ -1,4 +1,5 @@
 const str = '111222234556789';
+// const str = '';
 
 function find(str) {
 	let s = '';
