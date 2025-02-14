@@ -35,6 +35,24 @@ function retry(fn, times) {
 	}
 }
 
+async function retry1(fn, times) {
+	let lastError = null;
+	for (let i = 0; i < times; i++) {
+		try {
+			console.log('run time', i);
+			const result = await fn();
+			return result;
+		} catch (error) {
+			if (i >= times) break;
+			lastError = error;
+			console.log(`Attempt ${i}/${times} failed`, error);
+		}
+	}
+	return lastError;
+}
+
 // const fn = retry(task, 3);
 
 // fn(task, 2);
+
+retry1(task, 3);
