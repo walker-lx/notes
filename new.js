@@ -17,13 +17,14 @@ function myNew() {
 	// let obj = fn.prototype;
 	let obj = Object.create(fn.prototype); // 通过Object.create obj.__proto__ = fn.prototype;
 	console.log('__proto__====', obj.__proto__ === fn.prototype);
-	const result = fn.call(obj, [...arguments].slice(1));
+	const result = fn.call(obj, ...[...arguments].slice(1));
 	return result instanceof Object ? result : obj;
 }
 
-function Fn() {
+function Fn(b) {
 	this.a = 33;
+	this.b = b;
 }
 
-const obj = myNew(Fn);
-console.log(obj.__proto__);
+const obj = myNew(Fn, 'b');
+console.log(obj);
