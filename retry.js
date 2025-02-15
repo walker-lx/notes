@@ -1,7 +1,7 @@
 /*
  * @Author: alenjzhang
  * @Date: 2025-02-13 16:17:06
- * @Description: 重试函数封装
+ * @Description: 重试函数封装.
  */
 function task() {
 	return new Promise((resolve, reject) => {
