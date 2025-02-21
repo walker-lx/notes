@@ -4,3 +4,4 @@
 ### web播客：[博客](https://www.muyiy.cn/blog/1/1.1.html#%E6%89%A7%E8%A1%8C%E4%B8%8A%E4%B8%8B%E6%96%87%E7%9A%84%E7%B1%BB%E5%9E%8B)
 ### markdown：[markdown](https://github.com/Vanessa219/vditor)
 ### 3D：[3D](https://vr.3d66.com/)
+### [cursor](https://github.com/yuaotian/go-cursor-help/blob/master/README_CN.md)
