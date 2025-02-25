@@ -5,3 +5,4 @@
 ### markdown：[markdown](https://github.com/Vanessa219/vditor)
 ### 3D：[3D](https://vr.3d66.com/)
 ### [cursor](https://github.com/yuaotian/go-cursor-help/blob/master/README_CN.md)
+### [lf-layout](https://github.com/hongliangsam/layout-lf1.2.5/blob/main/src/components/beautifyElement/tools/dagre.ts)
