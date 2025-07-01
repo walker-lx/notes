@@ -8,3 +8,4 @@
 ### 美化：[lf-layout](https://github.com/hongliangsam/layout-lf1.2.5/blob/main/src/components/beautifyElement/tools/dagre.ts)， [@antv/layout](https://github.com/hsole/layoutFlow)
 ### mgx.dev：[mgx](https://mgx.dev/chat/i82og)
 ### chat：[hix.ai](https://hix.ai/claude/claude-3-7-sonnet)
+### proto官网：[https://moonrepo.dev/docs/proto/install]
